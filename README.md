@@ -5,7 +5,7 @@ package.json 替换
 
     "predev": "pkill -f 'Google Chrome' || true && open -n -a \"Google Chrome\" --args --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-debug-profile",
     "dev": "vite & sleep 2 && node console-monitor.js \"$npm_config_level\"",
-
+然后吧下面的说明和js丢给 cursor或者 写成一个cursor的rular文件，
 
 
 # Chrome 远程调试工具使用指南
